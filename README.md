@@ -1,18 +1,39 @@
-## Getting Started
+# 💰 ContaBanco
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este é um projeto simples feito em Java, com o objetivo de praticar entrada de dados usando a classe `Scanner`. O programa simula a criação de uma conta bancária, solicitando informações básicas do usuário e exibindo uma mensagem de confirmação.
 
-## Folder Structure
+## 🚀 Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita:
+  - Número da conta
+  - Número da agência
+  - Nome completo do cliente
+  - Valor de um depósito inicial
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Exibe uma mensagem personalizada com os dados informados
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## 📋 Exemplo de uso
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Por favor, digite o número da sua conta:
+54258
+Agora digite o número da sua agência:
+254-5
+Digite seu nome completo:
+Igor Alex Pereira
+Deseja realizar um depósito? Digite um valor:
+200
 
-## Dependency Management
+Olá Igor Alex Pereira, obrigado por criar uma conta em nosso banco, sua agência é 254-5, conta 54258 e seu saldo 200.0 já está disponível para saque ou transferência
+## 📌 Tecnologias utilizadas
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+## 🧠 Aprendizados
+Este projeto reforça os conceitos de:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Tipos primitivos em Java
+
+Leitura de dados com Scanner
+
+Concatenar e formatar mensagens
+
+Tratamento de entrada com nextLine() após nextInt()/next()
